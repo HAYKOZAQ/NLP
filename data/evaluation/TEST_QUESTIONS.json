@@ -1,0 +1,102 @@
+[
+  {
+    "q": "Ինչպե՞ս է կարգավորվում աշխատանքային պայմանագրի լուծումը:",
+    "reason": "Basic procedural question. Tests if the system can retrieve the Labor Code.",
+    "source": "ԱՇԽԱՏԱՆՔԱՅԻՆ"
+  },
+  {
+    "q": "Որո՞նք են հարկային պարտավորության կատարման ժամկետները:",
+    "reason": "Fact-retrieval. Tests if the system can find specific timelines (dates/numbers).",
+    "source": "ՀԱՐԿԱՅԻՆ"
+  },
+  {
+    "q": "Կարո՞ղ է արդյոք գործատուն միակողմանի փոփոխել պայմանագիրը:",
+    "reason": "Reasoning question. Tests if the system understands 'Yes/No' constraints in law.",
+    "source": "ԱՇԽԱՏԱՆՔԱՅԻՆ"
+  },
+  {
+    "q": "Ի՞նչ պատասխանատվություն է նախատեսված ապօրինի ձեռնարկատիրության համար:",
+    "reason": "Penalty retrieval. Tests if the Re-ranker can differentiate between Civil vs Criminal liability.",
+    "source": "ՔՐԵԱԿԱՆ"
+  },
+  {
+    "q": "Ինչպե՞ս պատրաստել պիցցա:",
+    "reason": "Safety check. Tests the 'Non-Legal Query' rejection protocol we just implemented.",
+    "source": ""
+  },
+  {
+    "q": "Ի՞նչ է հանցակցությունը ՀՀ քրեական օրենսգրքով:",
+    "reason": "Definition retrieval. Tests conceptual understanding of criminal law.",
+    "source": "ՔՐԵԱԿԱՆ"
+  },
+  {
+    "q": "Ո՞րն է նվազագույն աշխատավարձի չափը Հայաստանում 2024 թվականին:",
+    "reason": "Temporal fact retrieval. Needs up-to-date knowledge or retrieval.",
+    "source": "ԱՇԽԱՏԱՆՔԱՅԻՆ"
+  },
+  {
+    "q": "Ինչպե՞ս է կատարվում ժառանգության ընդունումը:",
+    "reason": "Procedural query. Tests retrieval of Civil Code inheritance steps.",
+    "source": "ՔԱՂԱՔԱՑԻԱԿԱՆ"
+  },
+  {
+    "q": "Կարո՞ղ է ոստիկանը առանց թույլտվության մտնել բնակարան:",
+    "reason": "Rights-based query. Tests understanding of constitutional/procedural exceptions.",
+    "source": "ԴԱՏԱՎԱՐՈՒԹՅԱՆ"
+  },
+  {
+    "q": "Որո՞նք են ամուսնալուծության հիմքերը դատական ​​կարգով:",
+    "reason": "List retrieval. Tests ability to extract multiple conditions.",
+    "source": "ԸՆՏԱՆԵԿԱՆ"
+  },
+  {
+    "q": "Ի՞նչ տուգանք է նախատեսված կարմիր լույսի տակով անցնելու համար:",
+    "reason": "Specific penalty retrieval. Traffic law check.",
+    "source": "ՎԱՐՉԱԿԱՆ"
+  },
+  {
+    "q": "Ովքե՞ր ունեն զինվորական ծառայությունից տարկետման իրավունք:",
+    "reason": "Complex condition retrieval. Law on Conscription.",
+    "source": "ՕՐԵՆՔ"
+  },
+  {
+    "q": "Հնարավո՞ր է արդյոք բողոքարկել վարչական ակտը դատարան:",
+    "reason": "Procedural timeline/possibility check.",
+    "source": "ԴԱՏԱՎԱՐՈՒԹՅԱՆ"
+  },
+  {
+    "q": "Ի՞նչ է նշանակում անմեղության կանխավարկած:",
+    "reason": "Theoretical definition. Constitutional law.",
+    "source": "ՍԱՀՄԱՆԱԴՐՈՒԹՅՈՒՆ"
+  },
+  {
+    "q": "Ինչպե՞ս գրանցել ՍՊԸ Հայաստանում:",
+    "reason": "Business procedure. State registry laws.",
+    "source": "ՔԱՂԱՔԱՑԻԱԿԱՆ"
+  },
+  {
+    "q": "Ո՞ր դեպքերում է թույլատրվում արտաժամյա աշխատանքը:",
+    "reason": "Labor code specific retrieval.",
+    "source": "ԱՇԽԱՏԱՆՔԱՅԻՆ"
+  },
+  {
+    "q": "Ի՞նչ իրավունքներ ունի սպառողը, եթե ապրանքը թերի է:",
+    "reason": "Consumer protection law.",
+    "source": "ՔԱՂԱՔԱՑԻԱԿԱՆ"
+  },
+  {
+    "q": "Որքա՞ն է եկամտային հարկի դրույքաչափը 2025 թվականին:",
+    "reason": "Tax code temporal query.",
+    "source": "ՀԱՐԿԱՅԻՆ"
+  },
+  {
+    "q": "Ինչպե՞ս ստանալ կենսաթոշակ:",
+    "reason": "Social security law procedural query.",
+    "source": "ՕՐԵՆՔ"
+  },
+  {
+    "q": "Արդյո՞ք էլեկտրոնային ստորագրությունը իրավական ուժ ունի:",
+    "reason": "Modern digital law query.",
+    "source": "ՔԱՂԱՔԱՑԻԱԿԱՆ"
+  }
+]

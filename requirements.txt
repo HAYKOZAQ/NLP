@@ -1,0 +1,15 @@
+pymupdf
+sentence-transformers
+rank_bm25
+faiss-cpu
+flask
+flask-cors
+python-dotenv
+pandas
+tabulate
+requests
+tqdm
+numpy
+transformers
+torch
+google-genai
